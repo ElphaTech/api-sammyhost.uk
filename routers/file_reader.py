@@ -5,7 +5,7 @@ import warnings
 import json
 
 
-def read_file(file_path: Union[str, pathlib.PosixPath], file_type: string = None) -> Union[str, NoneType]:
+def read_file(file_path: Union[str, pathlib.PosixPath], file_type: str = None) -> Union[str, NoneType]:
     '''
     Safely read files without crashing.
     Inputs:

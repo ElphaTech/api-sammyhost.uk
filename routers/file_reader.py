@@ -1,11 +1,11 @@
 import pathlib
 from pathlib import Path
-from typing import Union
+from typing import Optional, Union
 import warnings
 import json
 
 
-def read_file(file_path: Union[str, pathlib.PosixPath], file_type: str = None) -> Union[str, NoneType]:
+def read_file(file_path: Union[str, pathlib.PosixPath], file_type: str = None) -> Optional[str]:
     '''
     Safely read files without crashing.
     Inputs:

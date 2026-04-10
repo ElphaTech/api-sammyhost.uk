@@ -1,0 +1,29 @@
+{
+    "01/04/2026": {
+        "replace": true,
+        "school_open": true,
+        "events": [
+            {
+                "repeating": true,
+                "interval": 300,
+                "item_names": "PTI Session {}",
+                "name": "Parent Teacher Interviews",
+                "all_day": false,
+                "start_time": 30600,
+                "end_time": 59400
+            }
+        ]
+    },
+    "02/04/2026": {
+        "replace": true,
+        "school_open": true,
+        "events": [
+            {
+                "name": "Athletics Day",
+                "all_day": true,
+                "start_time": 0,
+                "end_time": 0
+            }
+        ]
+    }
+}

@@ -1,0 +1,4 @@
+[
+    {"start_time": "16:00", "start_date": "25/02/2026", "end_time": "20:00", "end_date": "25/02/2026", "type":"warning", "message": "Library is closing at 5pm!"},
+    {"start_time": "05:03", "start_date": "10/03/2026", "end_time": "13:05", "end_date": "13/03/2026", "type":"warning", "message": "Surprise"}
+]

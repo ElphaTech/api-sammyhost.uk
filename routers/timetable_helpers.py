@@ -103,6 +103,9 @@ def get_timetable_for_date(unix_time:float=t.time(), check_school_day:bool=False
             return all_day_event(overrides['events'][0]['name'], unix_time)
 
         if overrides.get('replace'):
+            for i in range(len(overrides['events'])):
+                overrides['events'][i]['start_time'] += get_start_of_day(unix_time)
+                overrides['events'][i]['end_time'] += get_start_of_day(unix_time)
             return overrides['events']
 
         # TODO: LAST CASE : USE SKL TTBL BUT CHANGE IDK HOW

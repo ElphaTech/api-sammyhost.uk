@@ -67,10 +67,22 @@
         "school_open": true,
         "events": [
             {
+                "name": "Go To Morning Exam Session",
+                "all_day": false,
+                "start_time": 30600,
+                "end_time": 32400
+            },
+            {
                 "name": "Morning Exam Session",
                 "all_day": false,
                 "start_time": 32400,
                 "end_time": 39600
+            },
+            {
+                "name": "Go To Afternoon Exam Session",
+                "all_day": false,
+                "start_time": 45000,
+                "end_time": 46800
             },
             {
                 "name": "Afternoon Exam Session",
